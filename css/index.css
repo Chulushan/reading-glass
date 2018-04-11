@@ -1,0 +1,51 @@
+#img-box{
+	width: 600px;
+	height: 600px;
+	background: black;
+	margin: 100px auto;
+	margin-left: 300px;
+	position: relative;
+}
+#min_pho{
+	float: left;
+	width: 500px;
+	height: 500px;
+	margin-left: 50px;
+	margin-top: 30px;
+	background-size: 100% 100%;
+	box-sizing: border-box;
+}
+#small_pic{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+#silder {
+	position: absolute;
+	top: 22px;
+	left: 130px;
+	width: 170px;
+	height: 170px;
+	background-color: rgba(0,255,255,0.3);
+	opacity: 0.3;
+	background-image:url(about:blank);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C00FFFF,endColorstr=#4C00FFFF);
+	display: none;
+	cursor: move;
+}
+#max_pho{
+	display: none;
+	position: absolute;
+	left: 650px;
+	width: 580px;
+	height: 570px;
+	box-sizing: border-box;
+	border: 1px solid #b5b5b5;
+	overflow: hidden;
+	z-index: 1000;
+}
+#big_pic{
+	width: 842px;
+	height: 842px;
+	position: absolute;
+}

@@ -1,0 +1,32 @@
+html,div,p,a，b,span,em,strong,h1,h2,
+h3,h4,h5,h6,ul,li,ol,dl,dd,dt,table,
+tr,th,td,img,button,form,link,label,
+input,textarea,select,option
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: "微软雅黑";
+}
+img{
+	/*display: block;*/
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+li{
+	list-style:none; 
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+html {
+	text-size-adjust : 100%;
+	-o-text-size-adjust : 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
